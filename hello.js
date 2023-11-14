@@ -1,3 +1,5 @@
-var a = "Simran Singh";
+ console.log("Hello World");
+ console.log('Hi Simmo');
+ console.log(`Hi JavaScript`);
 
-console.log(a);
+ console.log("Jay shri krishna");
