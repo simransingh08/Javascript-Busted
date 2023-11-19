@@ -15,10 +15,18 @@ let c = 4;
 let d = 8;
 
 console.log("c = ", c, "& d =", d);
-c++;// increment operator
+c++;// post increment operator
 console.log("c = ", c);
-d--; // decrement operator
+d--; // post decrement operator
 console.log("d = ", d);
+
+
+let e = 4;
+let f = 8;
+++e;// post increment operator
+console.log("e = ", e);
+--f; // post decrement operator
+console.log("f = ", f);
 
 
 
