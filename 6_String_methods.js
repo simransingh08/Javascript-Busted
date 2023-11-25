@@ -22,3 +22,11 @@ console.log(firstname.slice(0,2));
 
 let newstring2 = firstname.slice(0,6);
 console.log(newstring2);
+
+//replace,
+//str.replace(searchVal, newVal)
+let str = "Hello";
+console.log(str.replace("H", "Y"));
+console.log(str.charAt(3));
+
+
