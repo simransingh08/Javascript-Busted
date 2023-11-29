@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: aqua;
+}
+
+#heading{
+    background-color: lightgreen;
+}
