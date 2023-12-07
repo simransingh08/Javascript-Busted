@@ -9,9 +9,13 @@ console.log(id);
 let name = div.getAttribute("name");
 console.log(id);
 
-let para = document.querySelector("p");
-console.log(para.getAttribute('class'));
+// let para = document.querySelector("p");
+// console.log(para.getAttribute('class'));
 
 
 // how to set attribute
 
+let para = document.querySelector("p");
+console.log(para.setAttribute("class", "newClass"));
+
+// style attribute
