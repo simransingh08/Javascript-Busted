@@ -1,7 +1,7 @@
 
 // how to get attribute
-let div = document.querySelector("div")
-console.log(div);
+// let div = document.querySelector("div")
+// console.log(div);
 
 // getting the attribute from selector
 let id = div.getAttribute("id");
@@ -19,3 +19,5 @@ let para = document.querySelector("p");
 console.log(para.setAttribute("class", "newClass"));
 
 // style attribute
+let div = document.querySelector("div");
+console.log(div);
