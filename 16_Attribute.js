@@ -14,10 +14,10 @@ console.log(id);
 
 
 // how to set attribute
-
-let para = document.querySelector("p");
-console.log(para.setAttribute("class", "newClass"));
+// let para = document.querySelector("p");
+// console.log(para.setAttribute("class", "newClass"));
 
 // style attribute
 let div = document.querySelector("div");
+div.style.backgroundColor = "green";
 console.log(div);
