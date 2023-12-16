@@ -15,6 +15,11 @@ console.log(newBtn);
 // div.before(newBtn);
 
 // if we want just before the content then use before
-let div = document.querySelector("div");
-div.after(newBtn);
+// let div = document.querySelector("div");
+// div.after(newBtn);
+
+let newHeading = document.createElement("h1");
+newHeading.innerHTML = "<i> Hi, I am new in JavaScript! </i>";
+
+document.querySelector("body").prepend(newHeading);
 
