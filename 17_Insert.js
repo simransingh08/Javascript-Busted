@@ -23,3 +23,10 @@ newHeading.innerHTML = "<i> Hi, I am new in JavaScript! </i>";
 
 document.querySelector("body").prepend(newHeading);
 
+
+// delete any node with help of this command
+
+let para = document.querySelector("p");
+para.remove();
+
+
