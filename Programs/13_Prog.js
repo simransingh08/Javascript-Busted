@@ -13,3 +13,7 @@ newBtn.style.border = "none";
 newBtn.style.borderRadius = "10px";
 
 document.querySelector("body").append(newBtn);
+
+// Q2
+
+let para = document.querySelector("p");
