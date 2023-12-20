@@ -7,3 +7,11 @@ Events are fired to notify code of "Interesting Changes" that may affect code ex
 3. Form events (submit etc.)
 4. Print event & many more */
 
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    color: white;
+    border: 1px solid blue;
+}
