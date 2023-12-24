@@ -1,13 +1,17 @@
-// just creating prototype
+class ToyotaCar {
+    start() {
+        console.log("start");
+    }
 
-const employee = {
-    calcTax() {
-        console.log("Tax rate is 10%");
-    },
-};
+    stop() {
+        console.log("stop");
+    }
 
-const MyName = {
-    salary: 50000,
-};
+    setBrand(brand) {
+        this.brandname = brand;
+    }
+}
 
-MyName.__proto__ = employee;
+let fortuner = new ToyotaCar();
+fortuner.setBrand("fortuner");
+let lexus = new ToyotaCar();
