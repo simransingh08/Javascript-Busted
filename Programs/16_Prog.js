@@ -16,7 +16,7 @@ function checkPalindrome(string) {
     return 'It is a palindrome';
 }
 
-// take input
+// taking input
 const string = prompt('Enter a string: ');
 
 // call the function
